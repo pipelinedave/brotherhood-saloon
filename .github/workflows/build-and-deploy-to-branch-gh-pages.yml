@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  build and deploy jekyll src to branch gh-pages:
+  build-and-deploy-jekyll-src-to-branch-gh-pages:
     runs-on: ubuntu-latest
     permissions:
       contents: write

@@ -1,1 +1,2 @@
-*/*.lock
+jekyll/*.lock
+jekyll/_site

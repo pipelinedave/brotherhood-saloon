@@ -4,8 +4,8 @@ gem 'jekyll-paginate'
 gem 'jekyll-sitemap'
 gem 'jekyll-feed'
 gem 'jekyll-seo-tag'
+# install debug ide and debase
+gem 'debase'
+gem 'ruby-debug-ide'
 
-group :development do
-  gem 'debase'
-  gem 'ruby-debug-ide'
-end
+

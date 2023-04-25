@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "Debug Jekyll",
+        "type": "Ruby",
+        "request": "launch",
+        "cwd": "${workspaceRoot}",
+        "program": "${workspaceRoot}/jekyll",
+        "args": ["serve", "--trace"],
+        "useBundler": true,
+        "pathToBundler": "bundle",
+        "pathToRDebugIDE": "${workspaceRoot}/Gemfile",
+        "showDebuggerOutput": true,
+        "debuggerPort": "1234"
+      }
+    ]
+  }
+  

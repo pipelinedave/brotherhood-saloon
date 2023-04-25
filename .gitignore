@@ -1,2 +1,3 @@
 jekyll/*.lock
 jekyll/_site
+.jekyll-metadata
